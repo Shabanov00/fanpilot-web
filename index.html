@@ -161,7 +161,7 @@
     </header>
 
     <section class="hero" aria-labelledby="title">
-      <div class="eyebrow">Домашний компьютер</div>
+      <div class="eyebrow">Мой компьютер</div>
       <h1 id="title">Всё под контролем</h1>
       <p class="hero-copy">Быстрые и понятные действия. Нажмите кнопку — бот выполнит команду и напишет результат.</p>
       <div class="status-card">
@@ -180,15 +180,15 @@
       </button>
       <button class="action mint" type="button" data-action="wake">
         <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v8m5.7-5.7a8 8 0 1 1-11.4 0" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></span><span class="action-arrow">›</span></span>
-        <span><span class="action-title">Разбудить устройство</span><span class="action-desc">Wake-on-LAN, если настроен</span></span>
+        <span><span class="action-title">Разбудить компьютер</span><span class="action-desc">Wake-on-LAN, если настроен</span></span>
       </button>
       <button class="action red" type="button" data-action="shutdown">
         <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v8m5.7-5.7a8 8 0 1 1-11.4 0" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></span><span class="action-arrow">›</span></span>
-        <span><span class="action-title">Выключить сейчас</span><span class="action-desc">Сразу, без принудительного закрытия программ</span></span>
+        <span><span class="action-title">Завершение работы</span><span class="action-desc">Сразу, без принудительного закрытия программ</span></span>
       </button>
       <button class="action amber" type="button" data-action="restart">
         <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M20 7v5h-5M4.6 9a7.5 7.5 0 0 1 12.7-2L20 12M4 17v-5h5m10.4 3a7.5 7.5 0 0 1-12.7 2L4 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="action-arrow">›</span></span>
-        <span><span class="action-title">Перезагрузить сейчас</span><span class="action-desc">Сразу, без принудительного закрытия программ</span></span>
+        <span><span class="action-title">перезагрузка/span><span class="action-desc">Сразу, без принудительного закрытия программ</span></span>
       </button>
       <button class="action blue" type="button" data-action="sleep">
         <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M19.5 15.4A8 8 0 0 1 8.6 4.5 8.5 8.5 0 1 0 19.5 15.4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="action-arrow">›</span></span>
@@ -196,7 +196,7 @@
       </button>
       <button class="action mint" type="button" data-action="lock">
         <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="10" width="14" height="11" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 10V7a4 4 0 1 1 8 0v3m-4 4v3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span class="action-arrow">›</span></span>
-        <span><span class="action-title">Заблокировать Windows</span><span class="action-desc">Закрыть доступ к текущему сеансу</span></span>
+        <span><span class="action-title">Заблокировать</span><span class="action-desc">Закрыть доступ к текущему сеансу</span></span>
       </button>
       <button class="action amber" type="button" data-action="timer">
         <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="13" r="8" stroke="currentColor" stroke-width="1.8"/><path d="M12 9v4l2.7 1.6M9 3h6m-3 0v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="action-arrow">›</span></span>
@@ -205,6 +205,18 @@
       <button class="action blue" type="button" data-action="cancel" style="grid-column: 1 / -1; min-height: 82px;">
         <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M9 9l6 6m0-6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span class="action-arrow">›</span></span>
         <span><span class="action-title">Отменить таймер</span><span class="action-desc">Отменить назначенное выключение</span></span>
+      </button>
+      <button class="action blue" type="button" data-action="cancel" style="grid-column: 1 / -1; min-height: 82px;">
+        <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M9 9l6 6m0-6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span class="action-arrow">›</span></span>
+        <span><span class="action-title">Выключить звук</span><span class="action-desc">установить уровень громкости на ноль</span></span>
+      </button>
+      <button class="action blue" type="button" data-action="cancel" style="grid-column: 1 / -1; min-height: 82px;">
+        <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M9 9l6 6m0-6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span class="action-arrow">›</span></span>
+        <span><span class="action-title">Громкость +</span><span class="action-desc">увеличить уровень громкости на 10%</span></span>
+      </button>
+      <button class="action blue" type="button" data-action="cancel" style="grid-column: 1 / -1; min-height: 82px;">
+        <span class="action-top"><span class="action-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M9 9l6 6m0-6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span class="action-arrow">›</span></span>
+        <span><span class="action-title">Громкость -</span><span class="action-desc">уменьшить уровень громкости на 10%</span></span>
       </button>
     </section>
 
